@@ -131,12 +131,6 @@ subroutine main()
         call calc_U_Flory(chi12, phi_pol1, 0.0_8, U2)
         call calc_U_Flory(chi12, phi_pol2, 0.0_8, U1)
       
-      	
-        !!!! Gradient descent for potentials    
-        !U1(:) = eta*U1(:) + (1.0-eta)*W1(:)
-        !U2(:) = eta*U2(:) + (1.0-eta)*W2(:)
-        !Us(:) = eta*Us(:) + (1.0-eta)*Ws(:)
-        
         U1(:) = ksi*U1(:) + (1.0 - ksi)*W1(:)
         U2(:) = ksi*U2(:) + (1.0 - ksi)*W2(:)
         Us(:) = ksi*Us(:) + (1.0 - ksi)*Ws(:)
@@ -165,7 +159,7 @@ subroutine main()
             ksi = eta
         endif
         !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        write(*,*) iter, deviation
+        !write(*,*) iter, deviation
     enddo
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     !!!! calculating ends-profiles and their characteristics

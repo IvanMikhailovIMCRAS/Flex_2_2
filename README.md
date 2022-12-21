@@ -1,11 +1,10 @@
 # Flex_2_2
 
 ## Table of contents
-
-1. [General description](# General description)
-2. [Installing suggested](# Installing suggested)
-3. [Input files](# Input files)
-4. [Output files](#Output files)
+1. [General description](#General-description)
+2. [Installing suggested](#Installing-suggested)
+3. [Input files](#Input-files)
+4. [Output files](#Output-files) 
 
 ## General description
 Implementation of the numerical lattice Self-Consistent Field (SCF) method for simulations of binary brushes in selective solvent.

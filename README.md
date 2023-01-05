@@ -19,7 +19,7 @@ The code will be assembled and compiled according to the instructions in Makefil
 ### INPUT.txt (required file)
 This file contains following instructions:
 
-| instruction | iassignment |
+| instructions | assignments |
 |------------|---------------------------------------|
 |**N1**     |  polymerization degree of chain A        |
 |**sigma1** |  grafting density of chain A             |

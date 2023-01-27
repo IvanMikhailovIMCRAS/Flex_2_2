@@ -9,7 +9,7 @@
 ## General description
 Implementation of the numerical lattice Self-Consistent Field (SCF) method for simulations of binary brushes in selective solvent.
 
-A detailed description of the method and algorithm is given in the article "Chains Stiffness Effect on the Vertical Segregation of Mixed Polymer Brushes in Selective Solvent" (link will come later).
+A detailed description of the method and algorithm is given in the article ["Chains Stiffness Effect on the Vertical Segregation of Mixed Polymer Brushes in Selective Solvent"](https://www.mdpi.com/2073-4360/15/3/644/ "Polymers 2023, 15(3), 644").
 
 ## Installing suggested 
 To install the calculation package **Flex_2_2**, download this resource, go to the **Source** folder and execute the **make** command in terminal.
